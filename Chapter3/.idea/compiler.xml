@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Chapter3_main" target="1.8" />
+      <module name="Chapter3_test" target="1.8" />
+      <module name="doc_main" target="1.8" />
+      <module name="doc_test" target="1.8" />
+      <module name="IdeaProjects-Chapter3_main" target="1.8" />
+      <module name="IdeaProjects-Chapter3_test" target="1.8" />
+      <module name="Sub1_main" target="1.8" />
+      <module name="sub1_main" target="1.8" />
+      <module name="Sub1_test" target="1.8" />
+      <module name="sub1_test" target="1.8" />
+      <module name="Sub2_main" target="1.8" />
+      <module name="Sub2_test" target="1.8" />
+      <module name="Subproject1_main" target="1.8" />
+      <module name="Subproject1_test" target="1.8" />
+      <module name="Subproject2_main" target="1.8" />
+      <module name="Subproject2_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

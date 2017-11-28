@@ -1,0 +1,1 @@
+The version of this software is @libVersion@

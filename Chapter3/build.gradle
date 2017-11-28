@@ -1,0 +1,54 @@
+import org.apache.tools.ant.filters.ReplaceTokens
+
+group 'Chapter3'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+    testCompile 'org.assertj:assertj-core:3.8.0'
+    classpath "org.jfrog.buildinfo:build-info-extractor-gradle:latest.release"
+}
+apply plugin: "com.jfrog.artifactory"
+
+artifactory {
+    publish {
+        contextUrl = 'http://localhost:8081/artifactory'
+        repository {
+            repoKey = "libs-snapshot-local"
+            username = "user"
+            password = "pass"
+        }
+    }
+}
+
+
+task copyDocs(type: Copy) {
+    from 'src/main/doc'
+    into "$buildDir/documentation"
+    filter(ReplaceTokens, tokens: ['libVersion': version])
+}
+
+task runMain(type: JavaExec) {
+    doFirst{
+        group = 'application'
+        dependsOn 'classes'
+        main = 'HelloWorld'
+        classpath = sourceSets.main.runtimeClasspath
+        args = [System.getProperty('name')]
+    }
+}
+
+subprojects {
+    task doIt {
+        doLast { task ->
+            println "Just do it! https://www.youtube.com/watch?v=ZXsQAXx_ao0"
+        }
+    }
+}
