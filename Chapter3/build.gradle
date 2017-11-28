@@ -13,21 +13,7 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.+'
     testCompile 'org.assertj:assertj-core:3.8.0'
-    classpath "org.jfrog.buildinfo:build-info-extractor-gradle:latest.release"
 }
-apply plugin: "com.jfrog.artifactory"
-
-artifactory {
-    publish {
-        contextUrl = 'http://localhost:8081/artifactory'
-        repository {
-            repoKey = "libs-snapshot-local"
-            username = "user"
-            password = "pass"
-        }
-    }
-}
-
 
 task copyDocs(type: Copy) {
     from 'src/main/doc'

@@ -4,9 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Chapter3.iml" filepath="$PROJECT_DIR$/.idea/modules/Chapter3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Chapter3_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Chapter3_main.iml" group="Chapter3" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Chapter3_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Chapter3_main.iml" group="Chapter3" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Chapter3_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Chapter3_test.iml" group="Chapter3" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IdeaProjects-Chapter3_main.iml" filepath="$PROJECT_DIR$/.idea/modules/IdeaProjects-Chapter3_main.iml" group="Chapter3" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IdeaProjects-Chapter3_test.iml" filepath="$PROJECT_DIR$/.idea/modules/IdeaProjects-Chapter3_test.iml" group="Chapter3" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Chapter3_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Chapter3_test.iml" group="Chapter3" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Subproject1.iml" filepath="$PROJECT_DIR$/.idea/modules/Subproject1.iml" group="Subproject1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Subproject1/Subproject1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Subproject1/Subproject1_main.iml" group="Subproject1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Subproject1/Subproject1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Subproject1/Subproject1_test.iml" group="Subproject1" />
